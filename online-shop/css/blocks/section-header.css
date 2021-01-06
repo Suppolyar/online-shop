@@ -1,0 +1,54 @@
+.section-header {
+    margin-bottom: 40px;
+}
+.section-header__title {
+    margin: 0;
+    font-family: 'Playfair Display', serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 1.3;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+.section-header__description {
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: 0 auto;
+    max-width: 630px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+}
+
+.section-header__description--uppercase {
+    text-transform: uppercase;
+}
+.section-header__description--greater {
+    font-style: 14px;
+}
+
+.section-header__description p {
+    margin-top: 0;
+}
+
+@media (min-width: 992px) {
+    .section-header {
+        margin-bottom: 40px;
+    }
+    .section-header__title {
+        font-size: 42px;
+    }
+    .section-header__description {
+        font-size: 14px;
+    }
+    .section-header__description--greater {
+        font-style: 16px;
+    }
+}
